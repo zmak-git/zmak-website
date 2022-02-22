@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Mon Feb 21 2022 14:46:48 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Tue Feb 22 2022 14:57:07 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="620f922c834a2ac08c095ee9" data-wf-site="620f922c834a2a4ae4095ee8">
 <head>
   <meta charset="utf-8">
@@ -32,6 +32,12 @@
 .body{
  outline: none !important;
 }
+.w-slider-nav-invert>div.w-active {
+    background-color: #972FFF !important;
+}
+.w-slider-nav-invert>div {
+    background: rgba(255, 255, 255, 0.2) !important;
+}
 </style>
 </head>
 <body data-w-id="620f922c834a2abd00095eea" class="body">
@@ -44,7 +50,7 @@
           <a href="#About" class="new-navlink w-nav-link">About</a>
         </div>
         <div data-w-id="de2a59f2-0217-d026-75db-492629c95cd2" class="nav-wrap">
-          <a href="#Game" class="new-navlink w-nav-link">Game</a>
+          <a href="#Game" class="new-navlink w-nav-link">Lifepass</a>
         </div>
         <div data-w-id="0f628550-23c0-9fef-76d4-26a1225189fe" class="nav-wrap">
           <a href="#Roadmap" class="new-navlink w-nav-link">Roadmap</a>
@@ -76,7 +82,7 @@
       <div class="block-left max-621px">
         <h1 class="h1"><span class="_972fff">Zombies</span> X Mutant Ape Kids</h1>
         <div class="pading-27-40">
-          <p class="_15px">Zombies x Mutant Ape Kids (ZMAK) is a leading NFT project being a pioneer to create the first bridge between real-life and the Metaverse for the world, incorporating Mutant Ape Kids NFTs (MAKC) as playable characters. The Move-to-Earn Zombie vs Mutant Ape Kids Apocalypse NFT game encourages users to “Be Active, Be Social”.</p>
+          <p class="_15px">Zombies x Mutant Ape Kids (ZMAK) is a leading NFT project being a pioneer to create the first bridge between real-life and the Metaverse for the world, incorporating Mutant Ape Kids NFTs (MAKC) as playable characters. The Move-to-Earn Zombie vs Mutant Ape Kids NFT game encourages users to “Be Active, Be Social”.</p>
         </div>
         <a data-w-id="7dfd1123-51d9-9edc-51a6-a839c59922f9" style="border-color:rgba(255,255,255,0.14)" href="https://discord.gg/zmak" target="_blank" class="button-connect w-inline-block">
           <div style="opacity:0" class="gradient-backg"></div>
@@ -130,7 +136,7 @@
   <section id="Game" class="gallery-section wf-section">
     <div class="bg-img"></div>
     <div class="slider-wrap">
-      <div data-delay="4000" data-animation="slide" class="slider w-slider" data-autoplay="false" data-easing="ease" data-hide-arrows="false" data-disable-swipe="true" data-autoplay-limit="0" data-nav-spacing="3" data-duration="500" data-infinite="true">
+      <div data-delay="4000" data-animation="slide" class="slider w-slider" data-autoplay="false" data-easing="ease" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="500" data-infinite="true">
         <h2 class="h2 bottom-60 no30">NFT Premium Pass</h2>
         <div class="mask-2 w-slider-mask">
           <div class="slide-2 w-slide">
@@ -221,7 +227,7 @@
     <div class="container flex-side down">
       <div class="max-416 right-50">
         <h2 class="h2 _25-down">Our Community</h2>
-        <div class="text15">Join Our Discord Community where you can interact with ZMAK enthusiasts and our Team, get the latest updates about this upcoming project. </div>
+        <div class="text15">Join Our Discord Community where you can interact with ZMAK enthusiasts and our Team, get the latest updates about this upcoming project.</div>
         <a data-w-id="c1cd0a98-9e95-f4be-8f46-495d9d523f9e" href="https://discord.gg/zmak" target="_blank" class="button-connect _52-up w-inline-block">
           <div class="arroq-circle">
             <div style="opacity:1" class="arrow-gray"></div><img src="images/discord.svg" loading="lazy" alt="" class="discord-logo">
@@ -281,7 +287,7 @@
               <div class="timeline_text">ZMAK NFT Lifepass Development</div>
               <div class="dot-and-line">
                 <div class="dot">
-                  <p>Launching of ZMAK NFT Collection, with benefits assigned to various pass holders</p>
+                  <p class="paragraph-2">Launching of ZMAK NFT Collection, with benefits assigned to various pass holders</p>
                   <ul role="list" class="list">
                     <li>
                       <p class="paragraph">We will begin developing and launching the official ZMAK Lifepass NFT, with benefits assigned to different NFT pass holders.</p>
@@ -409,7 +415,7 @@
   <section class="about-us">
     <div id="The-Team" class="gallery-section open wf-section">
       <div class="gallery-wrapper">
-        <h2 class="h2 bottom-60 no30">The Team</h2>
+        <h2 class="h2 bottom-60 no30 center">The Team</h2>
         <div class="team-wrap hide">
           <div class="profile-card _370px">
             <div class="profile arthur"></div>
@@ -444,7 +450,79 @@
         </div>
       </div>
       <div class="slider-wrap">
-        <div data-delay="4000" data-animation="slide" class="slider bottomno w-slider" data-autoplay="false" data-easing="ease" data-hide-arrows="false" data-disable-swipe="true" data-autoplay-limit="0" data-nav-spacing="3" data-duration="500" data-infinite="false">
+        <div class="mobile--boa">
+          <h2 class="h2 bottom-60 no30 center">Board of Advisors</h2>
+          <div class="collection-item big-down">
+            <div class="profile-card">
+              <div class="profile _5th"></div>
+              <div class="_12px-bg">Crypto &amp; Blockchain Advisor</div>
+              <div class="_18px _30down">Zee Zheng</div>
+              <div class="profiletwo">
+                <div class="dot-and-line">
+                  <div class="dot">
+                    <div class="bullet-all-wrap">
+                      <div class="_14px-roboto">Co-Founder &amp; CEO of SpaceChain</div>
+                      <div class="_14px-roboto line">Lee Kuan Yew Senior Fellow at the Lee Kuan Yew School of Public Policy, NUS</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="collection-item big-down">
+            <div class="profile-card">
+              <div class="profile smoke"></div>
+              <div class="_12px-bg">Partnership Strategy Advisor</div>
+              <div class="_18px _30down">Nathaniel Kwek</div>
+              <div class="profiletwo">
+                <div class="bullet-all-wrap">
+                  <div class="_14px-roboto">CEO of Sushi Express Group</div>
+                  <div class="_14px-roboto line">Advisor for Gourmet Food Holdings</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="collection-item big-down">
+            <div class="profile-card">
+              <div class="profile shaitan"></div>
+              <div class="_12px-bg">Game Development Advisor</div>
+              <div class="_18px _30down">Ng Chong Geng</div>
+              <div class="profiletwo">
+                <div class="bullet-all-wrap">
+                  <div class="_14px-roboto">Director of Singapore Esports Association</div>
+                  <div class="_14px-roboto line">Director of Refract Technologies</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="collection-item big-down">
+            <div class="profile-card">
+              <div class="profile monkey"></div>
+              <div class="_12px-bg">Business Strategy Advisor</div>
+              <div class="_18px _30down">Lien Choong Luen</div>
+              <div class="profiletwo">
+                <div class="bullet-all-wrap">
+                  <div class="_14px-roboto">GM Gojek (International)</div>
+                  <div class="_14px-roboto line">SEA Head, McKinsey Centre for Government</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="collection-item">
+            <div class="profile-card">
+              <div class="profile ele"></div>
+              <div class="_12px-bg">Legal Affairs Advisor</div>
+              <div class="_18px _30down">Karen Xu</div>
+              <div class="profiletwo">
+                <div class="bullet-all-wrap">
+                  <div class="_14px-roboto">Legal Head of International Affairs of Didi</div>
+                  <div class="_14px-roboto line">Senior Associate of Clifford Chance</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-delay="4000" data-animation="slide" class="slider bottomno w-slider" data-autoplay="false" data-easing="ease" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="500" data-infinite="false">
           <h2 class="h2 bottom-60 no30">Board of Advisors</h2>
           <div class="w-embed">
             <style>
@@ -478,7 +556,7 @@ backdrop-filter: blur(18px);
             <div class="slide-2 w-slide">
               <div class="collection-item">
                 <div class="profile-card">
-                  <div class="profile _2nd"></div>
+                  <div class="profile smoke"></div>
                   <div class="_12px-bg">Partnership Strategy Advisor</div>
                   <div class="_18px _30down">Nathaniel Kwek</div>
                   <div class="profiletwo">
@@ -493,7 +571,7 @@ backdrop-filter: blur(18px);
             <div class="slide-2 w-slide">
               <div class="collection-item">
                 <div class="profile-card">
-                  <div class="profile _3rd"></div>
+                  <div class="profile shaitan"></div>
                   <div class="_12px-bg">Game Development Advisor</div>
                   <div class="_18px _30down">Ng Chong Geng</div>
                   <div class="profiletwo">
@@ -508,7 +586,7 @@ backdrop-filter: blur(18px);
             <div class="slide-2 w-slide">
               <div class="collection-item">
                 <div class="profile-card">
-                  <div class="profile _4th"></div>
+                  <div class="profile monkey"></div>
                   <div class="_12px-bg">Business Strategy Advisor</div>
                   <div class="_18px _30down">Lien Choong Luen</div>
                   <div class="profiletwo">
@@ -523,7 +601,7 @@ backdrop-filter: blur(18px);
             <div class="slide-2 w-slide">
               <div class="collection-item">
                 <div class="profile-card">
-                  <div class="profile _3rd"></div>
+                  <div class="profile ele"></div>
                   <div class="_12px-bg">Legal Affairs Advisor</div>
                   <div class="_18px _30down">Karen Xu</div>
                   <div class="profiletwo">
@@ -536,8 +614,8 @@ backdrop-filter: blur(18px);
               </div>
             </div>
           </div>
-          <div class="prevone w-slider-arrow-left"><img src="images/right-arrow.svg" alt="" class="image"></div>
-          <div class="nextone w-slider-arrow-right"><img src="images/right-arrow.svg" alt="" class="image-2"></div>
+          <div class="prevone hide w-slider-arrow-left"><img src="images/right-arrow.svg" alt="" class="image"></div>
+          <div class="nextone hide w-slider-arrow-right"><img src="images/right-arrow.svg" alt="" class="image-2"></div>
           <div class="slide-nav-2 w-slider-nav w-slider-nav-invert w-round"></div>
         </div>
       </div>
@@ -549,6 +627,8 @@ backdrop-filter: blur(18px);
       <div class="container grid">
         <div id="w-node-_04d7a398-ca46-e7e8-2f5c-1226ae542ba4-8c095ee9" class="partners-wrap"><img src="images/image-3.png" loading="lazy" alt="" class="width-80"></div>
         <div id="w-node-a99820fd-cafa-76f7-2702-52c7b3560f46-8c095ee9" class="partners-wrap"><img src="images/spacelogo.png" loading="lazy" alt="" class="width-80"></div>
+        <div id="w-node-_223a197e-30a3-9b75-d1fb-34d4c6445ac0-8c095ee9" class="partners-wrap"><img src="images/Gojek_logo_white.png" loading="lazy" alt="" class="width-80"></div>
+        <div id="w-node-_226dae37-7287-076f-9d5a-1f30f48bf8b5-8c095ee9" class="partners-wrap"><img src="images/Runners_Planet_logo_white.png" loading="lazy" alt="" class="width-80"></div>
       </div>
     </div>
     <div id="Our-Channels" class="wrap-down no190">
