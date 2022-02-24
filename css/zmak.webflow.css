@@ -2530,6 +2530,10 @@
     line-height: 27px;
   }
 
+  .roadmap-gradient-text{
+    display: none;
+  }
+
   .timeline_text-phrase {
     display: block;
     margin-bottom: 0px;
