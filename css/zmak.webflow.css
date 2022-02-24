@@ -1497,7 +1497,16 @@
   margin-left: 10px;
   border-radius: 35px;
 }
-
+.roadmap-gradient-text{
+  display: block; 
+  text-align: center; 
+  margin-bottom: 4vh; 
+  font-family: 'Alfa Slab One', sans-serif;
+  color: #fff;
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 400;
+}
 .timeline_text-phrase {
   display: none;
   margin-bottom: 19px;
