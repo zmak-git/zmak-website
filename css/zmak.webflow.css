@@ -1519,7 +1519,7 @@
   border-radius: 35px;
 }
 
-.timeline_text-phase {
+.timeline_text-phrase {
   display: none;
   margin-bottom: 19px;
   font-family: 'Alfa Slab One', sans-serif;
@@ -2056,7 +2056,7 @@
     text-align: center;
   }
 
-  .timeline_text-phase {
+  .timeline_text-phrase {
     font-size: 20px;
     line-height: 28px;
   }
@@ -2229,7 +2229,7 @@
     text-align: center;
   }
 
-  .timeline_text-phase {
+  .timeline_text-phrase {
     font-size: 20px;
   }
 }
@@ -2650,7 +2650,7 @@
     line-height: 27px;
   }
 
-  .timeline_text-phase {
+  .timeline_text-phrase {
     display: block;
     margin-bottom: 0px;
     font-size: 18px;
